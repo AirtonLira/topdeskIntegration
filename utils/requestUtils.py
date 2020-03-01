@@ -1,3 +1,4 @@
+import requests
 from flask import request
 
 
@@ -14,5 +15,7 @@ class requestUtils:
         else:
             self.Authorization = requisicao.headers['Authorization']
 
-        self.header= {'Authorization': self.Authorization,'Content-Type':"multipart/form-data"}
+        self.header = {'Authorization': self.Authorization,'Accept': 'application/json'}
         self.parametros = requisicao.args
+        self.token = ""
+
