@@ -38,20 +38,20 @@ def incidentes():
 @app.route('/incidentes/anexararquivo', methods=['POST'])
 def anexararquivo():
     reqUtils = requestUtils(request)
-    bodyform = request.form
+    urltarget = "https://conductor.topdesk.net/tas/api"
     number = reqUtils.parametros.getlist('number')[0]
-    f = request.files['file']
-    #sendFile = {"file": (f.filename, f.stream, f.mimetype)}
-    sendFile = {"file": f.stream}
-    description = bodyform.getlist('description')[0]
-    dados = {'description':description}
-    url = "http://conductor.topdesk.net/tas/api/incidents/number/{}/attachments".format(number)
 
-    files = {'file': ('teste2.jpg', open('teste2.jpg', 'rb'))}
-    with open('teste2.jpg', 'rb') as f:
-        resultado = requests.post(url,dados,files={'teste2.jpg': f},headers=reqUtils.header,verify=False)
-    status_code = resultado.status_code
-    resultado = resultado.content.decode('utf-8')
+
+    contentsUploadPath = os.listdir("./archives")
+    for file in contentsUploadPath:
+        filename = "./archives/" + file
+
+        fileName = {'file': open(filename, 'rb')}
+        uploadFileUrl = urltarget + '/incidents/number/' + number+ '/attachments'
+        uploadFile = requests.post(uploadFileUrl, headers=reqUtils.header,
+                                   files=fileName)
+
+    return uploadFile.content,uploadFile.status_code
 
     return resultado,str(status_code)
 
