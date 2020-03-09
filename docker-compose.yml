@@ -1,0 +1,10 @@
+version: '3.1'
+services: 
+  api-topdesk:
+    container_name: api-topdesk
+    build: 
+      context: "./"
+    ports: 
+      - "5002:5002"
+    volumes: 
+      - .:/app
