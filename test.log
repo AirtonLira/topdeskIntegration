@@ -1,0 +1,14 @@
+<<<<<<< HEAD
+2020-03-06 11:38:25,551,551 root ERROR Campo obrigatório não encontrado
+2020-03-06 11:38:33,143,143 root ERROR Campo vazio ou não validado
+2020-03-06 11:40:11,733,733 API INFO 03/06/20 11:40:11 Incidente de ID: I2003-862 criado com sucesso.
+2020-03-06 11:49:31,178,178 root ERROR Campo obrigatório não encontrado
+2020-03-06 11:49:54,925,925 root ERROR Campo vazio ou não validado
+2020-03-06 12:09:25,267,267 root ERROR Requisição não possui o number do incidente
+2020-03-06 12:29:43,619,619 root ERROR Requisição não possui o number do incidente
+2020-03-06 14:42:07,373,373 root ERROR Campo obrigatório não encontrado
+=======
+2020-03-05 18:03:08,913:WARNING: * Debugger is active!
+2020-03-05 18:03:08,915:INFO: * Debugger PIN: 297-294-225
+>>>>>>> develop
+2020-03-09 12:29:14,318,318 root ERROR Campo obrigat�rio n�o encontrado
