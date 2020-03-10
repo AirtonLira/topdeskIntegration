@@ -11,4 +11,22 @@
 2020-03-05 18:03:08,913:WARNING: * Debugger is active!
 2020-03-05 18:03:08,915:INFO: * Debugger PIN: 297-294-225
 >>>>>>> develop
-2020-03-09 12:29:14,318,318 root ERROR Campo obrigat�rio n�o encontrado
+2020-03-10 12:31:12,623,623 root ERROR Campo obrigatório não encontrado
+2020-03-10 12:45:27,280,280 root ERROR Erro na requisição para o topdesk
+2020-03-10 12:46:06,778,778 root ERROR Erro na requisição para o topdesk
+2020-03-10 12:46:26,163,163 root ERROR Erro na requisição para o topdesk
+2020-03-10 12:50:34,077,77 root ERROR Campo obrigatório não encontrado
+2020-03-10 12:59:44,709,709 root ERROR Campo obrigatório não encontrado
+2020-03-10 13:01:25,134,134 root ERROR Campo obrigatório não encontrado
+2020-03-10 13:06:52,747,747 root ERROR Erro na requisição para o topdesk
+2020-03-10 13:07:57,477,477 root ERROR Erro na requisição para o topdesk
+2020-03-10 13:09:22,390,390 root ERROR Erro na requisição para o topdesk
+2020-03-10 13:17:18,159,159 root ERROR Erro na requisição para o topdesk
+2020-03-10 13:17:40,538,538 root ERROR Erro na requisição para o topdesk
+2020-03-10 13:18:54,147,147 root ERROR Erro na requisição para o topdesk
+2020-03-10 13:22:48,618,618 root ERROR Erro na requisição para o topdesk
+2020-03-10 13:25:37,595,595 root ERROR Erro na requisição para o topdesk
+2020-03-10 13:28:54,182,182 root ERROR Erro na requisição para o topdesk
+2020-03-10 13:31:27,615,615 root ERROR Erro na requisição para o topdesk
+2020-03-10 13:34:02,897,897 root ERROR Erro na requisição para o topdesk, assert error
+2020-03-10 13:36:51,634,634 root ERROR Erro na requisição para o topdesk, status code diferente de 2xx

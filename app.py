@@ -1,5 +1,5 @@
 from libs import *
-
+from constants import *
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # URL - PATH da conductor https://conductor.topdesk.net/tas/api/
@@ -27,10 +27,13 @@ def gruposoperadores():
     reqUtils = requestUtils(request)
 
     try:
-        resultado = requests.get("https://conductor.topdesk.net/tas/api/operatorgroups/lookup", headers=reqUtils.header, params=reqUtils.parametros,verify=False)
+        #resultado = requests.get("https://conductor.topdesk.net/tas/api/operatorgroups/lookup", headers=reqUtils.header, params=reqUtils.parametros,verify=False)
+        resultado = requests.get(f"{URL_TARGET}/operatorgroups/lookup", headers=reqUtils.header, params=reqUtils.parametros,verify=False)
     except Exception as err:
-        exc.sendException("/gruposoperadores", exc.erroTopDesk, err, 'https://conductor.topdesk.net/tas/api/operatorgroups/lookup')
+        exc.sendExceptionTopDesk("/gruposoperadores", exc.erroTopDesk, err, f"{URL_TARGET}/operatorgroups/lookup")
+        #exc.sendException("/gruposoperadores", exc.erroTopDesk, err, 'https://conductor.topdesk.net/tas/api/operatorgroups/lookup')
         return exc.erroTopDesk, '400'
+       
 
     status_code = resultado.status_code
     resultado = resultado.content.decode('utf-8')
@@ -64,13 +67,13 @@ def criarincidente():
         return exc.erroCampoInvalido,'400'
 
     reqUtils = requestUtils(request)
-    url = "https://conductor.topdesk.net/tas/api/incidents"
+    url = f"{URL_TARGET}/incidents"
 
     data = reqUtils.SetCriarIncidente()
 
     try:
         resultado = requests.post(url, data, headers=reqUtils.header)
-        id_incidente = requests.get('https://conductor.topdesk.net/tas/api/incidents?page_size=1&order_by=creation_date+DESC&fields=number',headers=reqUtils.header, params=reqUtils.parametros,verify=False)
+        id_incidente = requests.get(f'{URL_TARGET}/incidents?page_size=1&order_by=creation_date+DESC&fields=number',headers=reqUtils.header, params=reqUtils.parametros,verify=False)
         status_code = resultado.status_code
 
     except Exception as error:
@@ -91,8 +94,7 @@ def criarincidente():
 @app.route('/incidentes/anexararquivo', methods=['POST'])
 def anexararquivo():
     reqUtils = requestUtils(request)
-    urltarget = "https://conductor.topdesk.net/tas/api"
-
+    
     if len(reqUtils.parametros.getlist('number')) == 0:
         exc.sendException('/incidentes/anexararquivo', exc.erroCampoAusente, "Parâmetro com o Number do incidente deve ser passado na URL", 'NoException')
         return exc.erroCampoAusente,'400'
@@ -108,13 +110,19 @@ def anexararquivo():
         filename = "./archives/" + file
 
         fileName = {'file': open(filename, 'rb')}
-        uploadFileUrl = urltarget + '/incidents/number/' + number+ '/attachments'
+        uploadFileUrl = URL_TARGET + '/incidents/number/' + number+ '/attachments'
         
         try:
             uploadFile = requests.post(uploadFileUrl, headers=reqUtils.header,
                                    files=fileName)
+            assert 200 <= uploadFile.status_code <= 206
+            #print(uploadFile.status_code)
+        except AssertionError as error:
+            # Verify the code if not 200
+            exc.sendExceptionTopDesk('/incidentes/anexararquivo', exc.erroTopDeskAssert, error, uploadFileUrl)
         except Exception as error:
-            exc.sendExceptionTopDesk('/incidentes/anexararquivo', exc.erroTopDesk, error, urltarget)
+        finally:
+            exc.sendExceptionTopDesk('/incidentes/anexararquivo', exc.erroTopDesk, error, uploadFileUrl)
             os.remove("./archives/"+ f.filename)            
             return exc.erroTopDesk, "400"
             #print("Erro na requição para o topdesk: " + uploadFileUrl)
@@ -129,9 +137,9 @@ def anexararquivo():
 @app.route('/categorias', methods=['GET'])
 def categorias():
     reqUtils = requestUtils(request)
-    url = "https://conductor.topdesk.net/tas/api/incidents/categories"
+    url = f"{URL_TARGET}/incidents/categories"
     try:
-        resultado = requests.get("https://conductor.topdesk.net/tas/api/incidents/categories", headers=reqUtils.header, params=reqUtils.parametros,verify=False)
+        resultado = requests.get(f"{URL_TARGET}/incidents/categories", headers=reqUtils.header, params=reqUtils.parametros,verify=False)
     except Exception as error:
         exc.sendExceptionTopDesk('/categorias', exc.erroTopDesk, error, url)
         return exc.erroTopDesk, "400"
@@ -146,10 +154,10 @@ def categorias():
 @app.route('/empresas', methods=['GET'])
 def empresas():
     reqUtils = requestUtils(request)
-    url = "https://conductor.topdesk.net/tas/api/branches"
+    url = f"{URL_TARGET}/branches"
 
     try:
-        resultado = requests.get("https://conductor.topdesk.net/tas/api/branches", headers=reqUtils.header,params=reqUtils.parametros, verify=False)
+        resultado = requests.get(url, headers=reqUtils.header,params=reqUtils.parametros, verify=False)
     except Exception as error:
         exc.sendExceptionTopDesk('/empresas', exc.erroTopDesk, error, url)
         return exc.erroTopDesk, "400"
@@ -163,10 +171,10 @@ def empresas():
 @app.route('/subcategorias', methods=['GET'])
 def subcategorias():
     reqUtils = requestUtils(request)
-    url = "https://conductor.topdesk.net/tas/api/incidents/subcategories"
+    url = f"{URL_TARGET}/incidents/subcategories"
 
     try:
-        resultado = requests.get("https://conductor.topdesk.net/tas/api/incidents/subcategories", headers=reqUtils.header,params=reqUtils.parametros, verify=False)
+        resultado = requests.get(url, headers=reqUtils.header,params=reqUtils.parametros, verify=False)
     except Exception as error:
         exc.sendExceptionTopDesk('/subcategorias', exc.erroTopDesk, error, url)
         return exc.erroTopDesk, "400"
@@ -179,10 +187,10 @@ def subcategorias():
 @app.route('/tipos', methods=['GET'])
 def tipos():
     reqUtils = requestUtils(request)
-    url = "https://conductor.topdesk.net/tas/api/incidents/call_types"
+    url = f"{URL_TARGET}/incidents/call_types"
 
     try:
-        resultado = requests.get("https://conductor.topdesk.net/tas/api/incidents/call_types", headers=reqUtils.header,params=reqUtils.parametros, verify=False)
+        resultado = requests.get(url, headers=reqUtils.header,params=reqUtils.parametros, verify=False)
     except Exception as error:
         exc.sendExceptionTopDesk('/tipos', exc.erroTopDesk, error, url)
         return exc.erroTopDesk, "400"
