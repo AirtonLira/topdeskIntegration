@@ -64,7 +64,7 @@ class exceptionHandler():
             url {str} -- url from Top Desk
         """  
          logging.error(text)
-         self.send_message_to_slack(f"Rota: [{endpoint}] {text} {url} Erro: " + str(error).split(')})')[1].replace('\n', ' ') )
+         self.send_message_to_slack(f"Rota: [{endpoint}] {text} {url} )
 
     def send_message_to_slack(self, text):
         """Send a message using Slack
