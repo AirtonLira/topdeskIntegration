@@ -30,3 +30,21 @@
 2020-03-10 13:31:27,615,615 root ERROR Erro na requisição para o topdesk
 2020-03-10 13:34:02,897,897 root ERROR Erro na requisição para o topdesk, assert error
 2020-03-10 13:36:51,634,634 root ERROR Erro na requisição para o topdesk, status code diferente de 2xx
+2020-03-10 16:09:24,774,774 root ERROR Erro na requisição para o topdesk, status code diferente de 2xx
+2020-03-10 16:10:49,602,602 root ERROR Campo obrigatório não encontrado
+2020-03-10 16:11:51,311,311 root ERROR Campo obrigatório não encontrado
+2020-03-10 16:12:26,722,722 root ERROR Campo obrigatório não encontrado
+2020-03-10 16:12:27,544,544 root ERROR HTTP Error 403: Forbidden
+2020-03-10 16:17:17,922,922 root ERROR Campo obrigatório não encontrado
+2020-03-10 16:18:40,699,699 root ERROR Erro na requisição para o topdesk, status code diferente de 2xx
+2020-03-10 16:19:45,923,923 root ERROR Erro na requisição para o topdesk, status code diferente de 2xx
+2020-03-10 16:20:05,898,898 root ERROR Erro na requisição para o topdesk, status code diferente de 2xx
+2020-03-10 16:20:32,754,754 root ERROR Erro na requisição para o topdesk, status code diferente de 2xx
+2020-03-10 16:21:28,839,839 root ERROR Campo obrigatório não encontrado
+2020-03-10 16:24:53,645,645 root ERROR Campo obrigatório não encontrado
+2020-03-10 16:26:03,159,159 root ERROR Campo obrigatório não encontrado
+2020-03-10 16:26:11,671,671 root ERROR Campo obrigatório não encontrado
+2020-03-10 16:26:38,191,191 root ERROR Campo obrigatório não encontrado
+2020-03-10 16:26:43,035,35 root ERROR Erro na requisição para o topdesk, status code diferente de 2xx
+2020-03-10 16:27:31,835,835 root ERROR Erro na requisição para o topdesk, status code diferente de 2xx
+2020-03-10 16:28:16,126,126 root ERROR Erro na requisição para o topdesk, status code diferente de 2xx

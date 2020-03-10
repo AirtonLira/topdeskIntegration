@@ -30,8 +30,8 @@ def gruposoperadores():
         #resultado = requests.get("https://conductor.topdesk.net/tas/api/operatorgroups/lookup", headers=reqUtils.header, params=reqUtils.parametros,verify=False)
         resultado = requests.get(f"{URL_TARGET}/operatorgroups/lookup", headers=reqUtils.header, params=reqUtils.parametros,verify=False)
     except Exception as err:
-        exc.sendExceptionTopDesk("/gruposoperadores", exc.erroTopDesk, err, f"{URL_TARGET}/operatorgroups/lookup")
         #exc.sendException("/gruposoperadores", exc.erroTopDesk, err, 'https://conductor.topdesk.net/tas/api/operatorgroups/lookup')
+        exc.sendExceptionTopDesk("/gruposoperadores", exc.erroTopDesk, err, f"{URL_TARGET}/operatorgroups/lookup")
         return exc.erroTopDesk, '400'
        
 
@@ -106,30 +106,28 @@ def anexararquivo():
     f.close()
 
     contentsUploadPath = os.listdir("./archives")
+
     for file in contentsUploadPath:
         filename = "./archives/" + file
-
         fileName = {'file': open(filename, 'rb')}
+        
         uploadFileUrl = URL_TARGET + '/incidents/number/' + number+ '/attachments'
         
         try:
             uploadFile = requests.post(uploadFileUrl, headers=reqUtils.header,
                                    files=fileName)
             assert 200 <= uploadFile.status_code <= 206
-            #print(uploadFile.status_code)
         except AssertionError as error:
             # Verify the code if not 200
             exc.sendExceptionTopDesk('/incidentes/anexararquivo', exc.erroTopDeskAssert, error, uploadFileUrl)
         except Exception as error:
-        finally:
             exc.sendExceptionTopDesk('/incidentes/anexararquivo', exc.erroTopDesk, error, uploadFileUrl)
-            os.remove("./archives/"+ f.filename)            
+            fileName["file"].close()
+            os.remove("./archives/"+ f.filename)  
             return exc.erroTopDesk, "400"
-            #print("Erro na requição para o topdesk: " + uploadFileUrl)
-            #print(error) 
-            #raise Exception("Requisição" + uploadFileUrl + "falhou!")
-    
-    os.remove("./archives/"+ f.filename) 
+            
+        fileName["file"].close()
+        os.remove("./archives/"+ f.filename)      
 
     #Verificar retorno
     return uploadFile.content, uploadFile.status_code
@@ -201,4 +199,4 @@ def tipos():
     return resultado, status_code
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0',port=5002,debug=True)
+    app.run(host='0.0.0.0',port=5004,debug=True)
