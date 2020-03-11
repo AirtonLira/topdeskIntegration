@@ -1,0 +1,157 @@
+2020-03-11 19:09:11,321,321 root ERROR [Erro na requisiÃ§Ã£o para o topdesk]
+2020-03-11 19:09:12,214,214 root ERROR HTTP Error 403: Forbidden
+2020-03-11 19:15:27,179,179 root ERROR [Erro na requisiÃ§Ã£o para o topdesk]
+2020-03-11 19:15:28,058,58 root ERROR HTTP Error 403: Forbidden
+2020-03-11 19:15:45,600,600 root ERROR [Erro na requisiÃ§Ã£o para o topdesk]
+2020-03-11 19:15:46,793,793 root ERROR HTTP Error 403: Forbidden
+2020-03-11 19:24:45,554,554 root ERROR [Erro na requisiÃ§Ã£o para o topdesk]
+2020-03-11 19:24:46,411,411 root ERROR HTTP Error 403: Forbidden
+2020-03-11 16:33:30,970,970 root ERROR [Erro na requisição para o topdesk]
+2020-03-11 16:33:31,847,847 root ERROR HTTP Error 403: Forbidden
+2020-03-11 16:34:57,522,522 root ERROR [Erro na requisição para o topdesk]
+2020-03-11 16:34:58,898,898 root ERROR HTTP Error 403: Forbidden
+2020-03-11 16:36:13,667,667 root ERROR [Erro na requisição para o topdesk]
+2020-03-11 16:36:14,513,513 root ERROR HTTP Error 403: Forbidden
+2020-03-11 16:36:22,415,415 root ERROR [Erro na requisição para o topdesk]
+2020-03-11 16:36:23,318,318 root ERROR HTTP Error 403: Forbidden
+2020-03-11 16:40:49,664,664 root ERROR [Erro na requisição para o topdesk]
+2020-03-11 16:40:50,579,579 root ERROR HTTP Error 403: Forbidden
+2020-03-11 17:02:01,535,535 root ERROR [Erro na requisição para o topdesk]
+2020-03-11 17:02:02,491,491 root ERROR HTTP Error 403: Forbidden
+2020-03-11 17:04:55,610,610 root ERROR [Erro na requisição para o topdesk]
+2020-03-11 17:04:56,465,465 root ERROR HTTP Error 403: Forbidden
+2020-03-11 17:07:11,922,922 root ERROR [Erro na requisição para o topdesk]
+2020-03-11 17:07:13,898,898 root ERROR HTTP Error 403: Forbidden
+2020-03-11 17:09:30,646,646 root ERROR [Erro na requisição para o topdesk]b'<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n<html>\n<!-- FileName: index.html\n     Language: [en]\n-->\n<!--Head-->\n<head>\n  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">\n  <meta http-equiv="X-UA-Compatible" content="IE=7" />\n  <title>McAfee Web Gateway - Notification</title>\n  <script src="/mwg-internal/de5fs23hu73ds/files/javascript/sw.js" type="text/javascript" ></script>\n  <link rel="stylesheet" href="/mwg-internal/de5fs23hu73ds/files/default/stylesheet.css" />\n</head>\n<!--/Head-->\n<!--Body-->\n<body onload="swOnLoad();">\n  <table class=\'bodyTable\'>\n    <tr>\n      <td class=\'bodyData\' background=\'/mwg-internal/de5fs23hu73ds/files/default/img/bg_body.gif\'>\n<!--Logo-->\n<table class=\'logoTable\'>\n  <tr>\n    <td class=\'logoData\'>\n      <a href=\'https://conductor.com.br/\'>\n        <img src=\'/mwg-internal/de5fs23hu73ds/files/default/img/conductor-logo.png\'></a>\n    </td>\n  </tr>\n</table>\n<!--/Logo-->\n<!--Contents-->\n<!-- FileName: cannotconnect.html\n     Language: [en]\n-->\n<!--Title-->\n<table class=\'titleTable\' background=\'/mwg-internal/de5fs23hu73ds/files/default/img/bg_navbar.jpg\'>\n  <tr>\n    <td class=\'titleData\'>\n      Cannot Connect / Unavailable website\n    </td>\n  </tr>\n</table>\n<!--/Title-->\n\n<!--Content-->\n<table class="contentTable">\n  <tr>\n    <td class="contentData">\n      The proxy could not connect to the destination in time. Please, try again later.\n    </td>\n  </tr>\n</table>\n<!--/Content-->\n\n<!--Info-->\n<table class="infoTable">\n  <tr>\n    <td class="infoData">\n      <b>URL: </b><script type="text/javascript">break_line("http://conductor.topdesk.net/tas/api/incidents/number/I2002-869/attachments");</script><br />\n      <p class="proxyErrorData">Failure Description: :errno: 32 - &apos;Broken pipe&apos;:server state 6:state 9:Application response 502 cannotconnect</p>\n    </td>\n  </tr>\n</table>\n<!--/Info-->\n\n<!--/Contents-->\n<!--Policy-->\n<table class=\'policyTable\'>\n  <tr>\n    <td class=\'policyHeading\'>\n      <hr>\n      Company Acceptable Use Policy\n    </td>\n  </tr>\n  <tr>\n    <td class=\'policyData\'>\n\n    </td>\n  </tr>\n</table>\n<!--/Policy-->\n<!--Foot-->\n<table class=\'footTable\'>\n  <tr>\n    <td class=\'helpDeskData\' background=\'/mwg-internal/de5fs23hu73ds/files/default/img/bg_navbar.jpg\'>\n      For assistance, please contact your system administrator.\n    </td>\n  </tr>\n  <tr>\n    <td class=\'footData\'>\n      generated <span id="time">2020-03-11 16:09:30</span> by McAfee Web Gateway\n      <br />\n      Usuario: airton.junior   <br />\n      Cloud Proxy: false <br />\n      python-requests/2.23.0\n    </td>\n  </tr>\n</table>\n<!--/Foot-->\n      </td>\n    </tr>\n  </table>\n</body>\n<!--/Body-->\n</html>\n'
+2020-03-11 17:09:31,536,536 root ERROR HTTP Error 403: Forbidden
+2020-03-11 17:12:27,932,932 root ERROR [Erro na requisição para o topdesk]b'<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n<html>\n<!-- FileName: index.html\n     Language: [en]\n-->\n<!--Head-->\n<head>\n  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">\n  <meta http-equiv="X-UA-Compatible" content="IE=7" />\n  <title>McAfee Web Gateway - Notification</title>\n  <script src="/mwg-internal/de5fs23hu73ds/files/javascript/sw.js" type="text/javascript" ></script>\n  <link rel="stylesheet" href="/mwg-internal/de5fs23hu73ds/files/default/stylesheet.css" />\n</head>\n<!--/Head-->\n<!--Body-->\n<body onload="swOnLoad();">\n  <table class=\'bodyTable\'>\n    <tr>\n      <td class=\'bodyData\' background=\'/mwg-internal/de5fs23hu73ds/files/default/img/bg_body.gif\'>\n<!--Logo-->\n<table class=\'logoTable\'>\n  <tr>\n    <td class=\'logoData\'>\n      <a href=\'https://conductor.com.br/\'>\n        <img src=\'/mwg-internal/de5fs23hu73ds/files/default/img/conductor-logo.png\'></a>\n    </td>\n  </tr>\n</table>\n<!--/Logo-->\n<!--Contents-->\n<!-- FileName: cannotconnect.html\n     Language: [en]\n-->\n<!--Title-->\n<table class=\'titleTable\' background=\'/mwg-internal/de5fs23hu73ds/files/default/img/bg_navbar.jpg\'>\n  <tr>\n    <td class=\'titleData\'>\n      Cannot Connect / Unavailable website\n    </td>\n  </tr>\n</table>\n<!--/Title-->\n\n<!--Content-->\n<table class="contentTable">\n  <tr>\n    <td class="contentData">\n      The proxy could not connect to the destination in time. Please, try again later.\n    </td>\n  </tr>\n</table>\n<!--/Content-->\n\n<!--Info-->\n<table class="infoTable">\n  <tr>\n    <td class="infoData">\n      <b>URL: </b><script type="text/javascript">break_line("http://conductor.topdesk.net/tas/api/incidents/number/I2002-869/attachments");</script><br />\n      <p class="proxyErrorData">Failure Description: :errno: 32 - &apos;Broken pipe&apos;:server state 6:state 9:Application response 502 cannotconnect</p>\n    </td>\n  </tr>\n</table>\n<!--/Info-->\n\n<!--/Contents-->\n<!--Policy-->\n<table class=\'policyTable\'>\n  <tr>\n    <td class=\'policyHeading\'>\n      <hr>\n      Company Acceptable Use Policy\n    </td>\n  </tr>\n  <tr>\n    <td class=\'policyData\'>\n\n    </td>\n  </tr>\n</table>\n<!--/Policy-->\n<!--Foot-->\n<table class=\'footTable\'>\n  <tr>\n    <td class=\'helpDeskData\' background=\'/mwg-internal/de5fs23hu73ds/files/default/img/bg_navbar.jpg\'>\n      For assistance, please contact your system administrator.\n    </td>\n  </tr>\n  <tr>\n    <td class=\'footData\'>\n      generated <span id="time">2020-03-11 16:12:27</span> by McAfee Web Gateway\n      <br />\n      Usuario: airton.junior   <br />\n      Cloud Proxy: false <br />\n      python-requests/2.23.0\n    </td>\n  </tr>\n</table>\n<!--/Foot-->\n      </td>\n    </tr>\n  </table>\n</body>\n<!--/Body-->\n</html>\n'
+2020-03-11 17:12:31,138,138 root ERROR HTTP Error 403: Forbidden
+2020-03-11 17:14:53,389,389 root ERROR [Erro na requisição para o topdesk]b'<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n<html>\n<!-- FileName: index.html\n     Language: [en]\n-->\n<!--Head-->\n<head>\n  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">\n  <meta http-equiv="X-UA-Compatible" content="IE=7" />\n  <title>McAfee Web Gateway - Notification</title>\n  <script src="/mwg-internal/de5fs23hu73ds/files/javascript/sw.js" type="text/javascript" ></script>\n  <link rel="stylesheet" href="/mwg-internal/de5fs23hu73ds/files/default/stylesheet.css" />\n</head>\n<!--/Head-->\n<!--Body-->\n<body onload="swOnLoad();">\n  <table class=\'bodyTable\'>\n    <tr>\n      <td class=\'bodyData\' background=\'/mwg-internal/de5fs23hu73ds/files/default/img/bg_body.gif\'>\n<!--Logo-->\n<table class=\'logoTable\'>\n  <tr>\n    <td class=\'logoData\'>\n      <a href=\'https://conductor.com.br/\'>\n        <img src=\'/mwg-internal/de5fs23hu73ds/files/default/img/conductor-logo.png\'></a>\n    </td>\n  </tr>\n</table>\n<!--/Logo-->\n<!--Contents-->\n<!-- FileName: cannotconnect.html\n     Language: [en]\n-->\n<!--Title-->\n<table class=\'titleTable\' background=\'/mwg-internal/de5fs23hu73ds/files/default/img/bg_navbar.jpg\'>\n  <tr>\n    <td class=\'titleData\'>\n      Cannot Connect / Unavailable website\n    </td>\n  </tr>\n</table>\n<!--/Title-->\n\n<!--Content-->\n<table class="contentTable">\n  <tr>\n    <td class="contentData">\n      The proxy could not connect to the destination in time. Please, try again later.\n    </td>\n  </tr>\n</table>\n<!--/Content-->\n\n<!--Info-->\n<table class="infoTable">\n  <tr>\n    <td class="infoData">\n      <b>URL: </b><script type="text/javascript">break_line("http://conductor.topdesk.net/tas/api/incidents/number/I2002-869/attachments");</script><br />\n      <p class="proxyErrorData">Failure Description: :errno: 32 - &apos;Broken pipe&apos;:server state 6:state 9:Application response 502 cannotconnect</p>\n    </td>\n  </tr>\n</table>\n<!--/Info-->\n\n<!--/Contents-->\n<!--Policy-->\n<table class=\'policyTable\'>\n  <tr>\n    <td class=\'policyHeading\'>\n      <hr>\n      Company Acceptable Use Policy\n    </td>\n  </tr>\n  <tr>\n    <td class=\'policyData\'>\n\n    </td>\n  </tr>\n</table>\n<!--/Policy-->\n<!--Foot-->\n<table class=\'footTable\'>\n  <tr>\n    <td class=\'helpDeskData\' background=\'/mwg-internal/de5fs23hu73ds/files/default/img/bg_navbar.jpg\'>\n      For assistance, please contact your system administrator.\n    </td>\n  </tr>\n  <tr>\n    <td class=\'footData\'>\n      generated <span id="time">2020-03-11 16:14:53</span> by McAfee Web Gateway\n      <br />\n      Usuario: airton.junior   <br />\n      Cloud Proxy: false <br />\n      python-requests/2.23.0\n    </td>\n  </tr>\n</table>\n<!--/Foot-->\n      </td>\n    </tr>\n  </table>\n</body>\n<!--/Body-->\n</html>\n'
+2020-03-11 17:14:54,244,244 root ERROR HTTP Error 403: Forbidden
+2020-03-11 17:15:57,143,143 root ERROR [Erro na requisição para o topdesk]b'<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n<html>\n<!-- FileName: index.html\n     Language: [en]\n-->\n<!--Head-->\n<head>\n  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">\n  <meta http-equiv="X-UA-Compatible" content="IE=7" />\n  <title>McAfee Web Gateway - Notification</title>\n  <script src="/mwg-internal/de5fs23hu73ds/files/javascript/sw.js" type="text/javascript" ></script>\n  <link rel="stylesheet" href="/mwg-internal/de5fs23hu73ds/files/default/stylesheet.css" />\n</head>\n<!--/Head-->\n<!--Body-->\n<body onload="swOnLoad();">\n  <table class=\'bodyTable\'>\n    <tr>\n      <td class=\'bodyData\' background=\'/mwg-internal/de5fs23hu73ds/files/default/img/bg_body.gif\'>\n<!--Logo-->\n<table class=\'logoTable\'>\n  <tr>\n    <td class=\'logoData\'>\n      <a href=\'https://conductor.com.br/\'>\n        <img src=\'/mwg-internal/de5fs23hu73ds/files/default/img/conductor-logo.png\'></a>\n    </td>\n  </tr>\n</table>\n<!--/Logo-->\n<!--Contents-->\n<!-- FileName: cannotconnect.html\n     Language: [en]\n-->\n<!--Title-->\n<table class=\'titleTable\' background=\'/mwg-internal/de5fs23hu73ds/files/default/img/bg_navbar.jpg\'>\n  <tr>\n    <td class=\'titleData\'>\n      Cannot Connect / Unavailable website\n    </td>\n  </tr>\n</table>\n<!--/Title-->\n\n<!--Content-->\n<table class="contentTable">\n  <tr>\n    <td class="contentData">\n      The proxy could not connect to the destination in time. Please, try again later.\n    </td>\n  </tr>\n</table>\n<!--/Content-->\n\n<!--Info-->\n<table class="infoTable">\n  <tr>\n    <td class="infoData">\n      <b>URL: </b><script type="text/javascript">break_line("http://conductor.topdesk.net/tas/api/incidents/number/I2002-869/attachments");</script><br />\n      <p class="proxyErrorData">Failure Description: :errno: 32 - &apos;Broken pipe&apos;:server state 6:state 9:Application response 502 cannotconnect</p>\n    </td>\n  </tr>\n</table>\n<!--/Info-->\n\n<!--/Contents-->\n<!--Policy-->\n<table class=\'policyTable\'>\n  <tr>\n    <td class=\'policyHeading\'>\n      <hr>\n      Company Acceptable Use Policy\n    </td>\n  </tr>\n  <tr>\n    <td class=\'policyData\'>\n\n    </td>\n  </tr>\n</table>\n<!--/Policy-->\n<!--Foot-->\n<table class=\'footTable\'>\n  <tr>\n    <td class=\'helpDeskData\' background=\'/mwg-internal/de5fs23hu73ds/files/default/img/bg_navbar.jpg\'>\n      For assistance, please contact your system administrator.\n    </td>\n  </tr>\n  <tr>\n    <td class=\'footData\'>\n      generated <span id="time">2020-03-11 16:15:57</span> by McAfee Web Gateway\n      <br />\n      Usuario: airton.junior   <br />\n      Cloud Proxy: false <br />\n      python-requests/2.23.0\n    </td>\n  </tr>\n</table>\n<!--/Foot-->\n      </td>\n    </tr>\n  </table>\n</body>\n<!--/Body-->\n</html>\n'
+2020-03-11 17:15:58,394,394 root ERROR HTTP Error 403: Forbidden
+2020-03-11 17:18:17,396,396 root ERROR [Erro na requisição para o topdesk]
+2020-03-11 17:18:18,268,268 root ERROR HTTP Error 403: Forbidden
+2020-03-11 17:20:11,337,337 root ERROR [Erro na requisição para o topdesk]
+2020-03-11 17:20:12,250,250 root ERROR HTTP Error 403: Forbidden
+2020-03-11 17:32:13,510,510 root ERROR [Erro na requisição para o topdesk]400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2020-03-11 17:32:14,417,417 root ERROR HTTP Error 403: Forbidden
+2020-03-11 17:32:34,683,683 root ERROR [Erro na requisição para o topdesk]400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2020-03-11 17:32:35,523,523 root ERROR HTTP Error 403: Forbidden
+2020-03-11 17:35:15,200,200 root ERROR [Erro na requisição para o topdesk]400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2020-03-11 17:35:16,234,234 root ERROR HTTP Error 403: Forbidden
+2020-03-11 17:37:00,446,446 root ERROR [Erro na requisição para o topdesk]400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2020-03-11 17:37:01,369,369 root ERROR HTTP Error 403: Forbidden
+2020-03-11 21:19:49,482,482 root ERROR [Erro na requisiÃ§Ã£o para o topdesk]HTTPSConnectionPool(host='conductor.topdesk.net', port=443): Max retries exceeded with url: /tas/api/incidents (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1108)')))
+2020-03-11 21:19:50,327,327 root ERROR HTTP Error 403: Forbidden
+2020-03-11 18:22:45,531,531 root ERROR [Erro na requisição para o topdesk]HTTPSConnectionPool(host='conductor.topdesk.net', port=443): Max retries exceeded with url: /tas/api/incidents (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1076)')))
+2020-03-11 18:22:46,405,405 root ERROR HTTP Error 403: Forbidden
+2020-03-11 18:24:22,136,136 root ERROR [Erro na requisição para o topdesk]HTTPSConnectionPool(host='conductor.topdesk.net', port=443): Max retries exceeded with url: /tas/api/incidents (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1076)')))
+2020-03-11 18:24:23,055,55 root ERROR HTTP Error 403: Forbidden
+2020-03-11 18:28:25,154,154 werkzeug INFO  * Restarting with stat
+2020-03-11 18:28:26,073,73 werkzeug WARNING  * Debugger is active!
+2020-03-11 18:28:26,085,85 werkzeug INFO  * Debugger PIN: 180-228-970
+2020-03-11 18:28:26,193,193 werkzeug INFO  * Running on http://0.0.0.0:5002/ (Press CTRL+C to quit)
+2020-03-11 18:28:44,028,28 werkzeug INFO 127.0.0.1 - - [11/Mar/2020 18:28:44] "[33mGET /grupooperadores HTTP/1.1[0m" 404 -
+2020-03-11 18:29:00,774,774 werkzeug INFO 127.0.0.1 - - [11/Mar/2020 18:29:00] "[37mGET /gruposoperadores HTTP/1.1[0m" 200 -
+2020-03-11 18:29:43,707,707 root ERROR [Erro na requisição para o topdesk]HTTPSConnectionPool(host='conductor.topdesk.net', port=443): Max retries exceeded with url: /tas/api/incidents (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1076)')))
+2020-03-11 18:29:44,605,605 root ERROR HTTP Error 403: Forbidden
+2020-03-11 18:29:44,611,611 werkzeug INFO 127.0.0.1 - - [11/Mar/2020 18:29:44] "[31m[1mPOST /criarincidente HTTP/1.1[0m" 400 -
+2020-03-11 18:29:55,632,632 werkzeug INFO  * Restarting with stat
+2020-03-11 18:29:57,460,460 werkzeug WARNING  * Debugger is active!
+2020-03-11 18:29:57,471,471 werkzeug INFO  * Debugger PIN: 180-228-970
+2020-03-11 18:29:57,534,534 werkzeug INFO  * Running on http://0.0.0.0:5002/ (Press CTRL+C to quit)
+2020-03-11 18:30:52,550,550 werkzeug INFO  * Restarting with stat
+2020-03-11 18:30:54,344,344 werkzeug WARNING  * Debugger is active!
+2020-03-11 18:30:54,356,356 werkzeug INFO  * Debugger PIN: 180-228-970
+2020-03-11 18:30:54,417,417 werkzeug INFO  * Running on http://0.0.0.0:5002/ (Press CTRL+C to quit)
+2020-03-11 18:31:33,301,301 root ERROR HTTP Error 403: Forbidden
+2020-03-11 18:31:40,178,178 werkzeug INFO 127.0.0.1 - - [11/Mar/2020 18:31:40] "[37mPOST /criarincidente HTTP/1.1[0m" 201 -
+2020-03-11 18:33:00,189,189 werkzeug INFO  * Detected change in 'C:\\Users\\airton.junior\\Documents\\topdeskIntegration\\utils\\requestUtils.py', reloading
+2020-03-11 18:33:00,486,486 werkzeug INFO  * Restarting with stat
+2020-03-11 18:33:17,934,934 werkzeug INFO  * Restarting with stat
+2020-03-11 18:33:18,884,884 werkzeug WARNING  * Debugger is active!
+2020-03-11 18:33:18,893,893 werkzeug INFO  * Debugger PIN: 180-228-970
+2020-03-11 18:33:18,952,952 werkzeug INFO  * Running on http://0.0.0.0:5002/ (Press CTRL+C to quit)
+2020-03-11 18:33:28,462,462 root ERROR HTTP Error 403: Forbidden
+2020-03-11 18:33:28,466,466 werkzeug INFO 127.0.0.1 - - [11/Mar/2020 18:33:28] "[37mPOST /criarincidente HTTP/1.1[0m" 201 -
+2020-03-11 18:39:58,898,898 werkzeug INFO  * Detected change in 'C:\\Users\\airton.junior\\Documents\\topdeskIntegration\\app.py', reloading
+2020-03-11 18:39:59,321,321 werkzeug INFO  * Restarting with stat
+2020-03-11 18:52:29,439,439 werkzeug INFO  * Restarting with stat
+2020-03-11 18:56:46,538,538 werkzeug WARNING  * Debugger is active!
+2020-03-11 18:56:46,560,560 werkzeug INFO  * Debugger PIN: 180-228-970
+2020-03-11 18:56:46,684,684 werkzeug INFO  * Running on http://0.0.0.0:5002/ (Press CTRL+C to quit)
+2020-03-11 18:57:04,854,854 werkzeug INFO  * Restarting with stat
+2020-03-11 18:57:06,144,144 werkzeug WARNING  * Debugger is active!
+2020-03-11 18:57:06,158,158 werkzeug INFO  * Debugger PIN: 180-228-970
+2020-03-11 18:57:06,242,242 werkzeug INFO  * Running on http://0.0.0.0:5002/ (Press CTRL+C to quit)
+2020-03-11 18:57:13,298,298 root ERROR [Erro na requisição para o topdesk]HTTPSConnectionPool(host='conductor.topdesk.net', port=443): Max retries exceeded with url: /tas/api/incidents (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1076)')))
+2020-03-11 18:57:14,170,170 root ERROR HTTP Error 403: Forbidden
+2020-03-11 18:57:14,172,172 werkzeug INFO 127.0.0.1 - - [11/Mar/2020 18:57:14] "[31m[1mPOST /criarincidente HTTP/1.1[0m" 400 -
+2020-03-11 18:57:33,073,73 werkzeug INFO  * Restarting with stat
+2020-03-11 18:57:34,923,923 werkzeug WARNING  * Debugger is active!
+2020-03-11 18:57:34,936,936 werkzeug INFO  * Debugger PIN: 180-228-970
+2020-03-11 18:57:35,002,2 werkzeug INFO  * Running on http://0.0.0.0:5002/ (Press CTRL+C to quit)
+2020-03-11 18:59:37,042,42 werkzeug INFO  * Restarting with stat
+2020-03-11 18:59:38,876,876 werkzeug WARNING  * Debugger is active!
+2020-03-11 18:59:38,888,888 werkzeug INFO  * Debugger PIN: 180-228-970
+2020-03-11 18:59:38,948,948 werkzeug INFO  * Running on http://0.0.0.0:5002/ (Press CTRL+C to quit)
+2020-03-11 19:01:51,127,127 werkzeug INFO  * Restarting with stat
+2020-03-11 19:01:53,124,124 werkzeug WARNING  * Debugger is active!
+2020-03-11 19:01:53,137,137 werkzeug INFO  * Debugger PIN: 180-228-970
+2020-03-11 19:01:53,208,208 werkzeug INFO  * Running on http://0.0.0.0:5002/ (Press CTRL+C to quit)
+2020-03-11 19:02:06,550,550 root ERROR HTTP Error 403: Forbidden
+2020-03-11 19:02:06,558,558 werkzeug INFO 127.0.0.1 - - [11/Mar/2020 19:02:06] "[37mPOST /criarincidente HTTP/1.1[0m" 201 -
+2020-03-11 19:03:06,138,138 werkzeug INFO 127.0.0.1 - - [11/Mar/2020 19:03:06] "[37mGET /gruposoperadores HTTP/1.1[0m" 200 -
+2020-03-11 19:03:33,386,386 root ERROR [Erro na requisição para o topdesk]b'{\n"servlet":"org.glassfish.jersey.servlet.ServletContainer-9096478",\n"message":"Bad Request",\n"url":"/tas/api/incidents/number/I2003-1551/attachments",\n"status":"400"\n}'
+2020-03-11 19:03:34,260,260 root ERROR HTTP Error 403: Forbidden
+2020-03-11 19:03:34,264,264 werkzeug INFO 127.0.0.1 - - [11/Mar/2020 19:03:34] "[31m[1mPOST /incidentes/anexararquivo?number=I2003-1551 HTTP/1.1[0m" 400 -
+2020-03-11 19:04:06,863,863 werkzeug INFO 127.0.0.1 - - [11/Mar/2020 19:04:06] "[37mPOST /incidentes/anexararquivo?number=I2003-1551 HTTP/1.1[0m" 200 -
+2020-03-11 19:05:58,504,504 werkzeug INFO  * Restarting with stat
+2020-03-11 19:05:59,656,656 werkzeug WARNING  * Debugger is active!
+2020-03-11 19:05:59,665,665 werkzeug INFO  * Debugger PIN: 180-228-970
+2020-03-11 19:05:59,724,724 werkzeug INFO  * Running on http://0.0.0.0:5002/ (Press CTRL+C to quit)
+2020-03-11 19:06:13,664,664 root ERROR [Erro na requisição para o topdesk]400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2020-03-11 19:06:14,503,503 root ERROR HTTP Error 403: Forbidden
+2020-03-11 19:06:14,507,507 werkzeug INFO 127.0.0.1 - - [11/Mar/2020 19:06:14] "[31m[1mPOST /incidentes/anexararquivo?number=I2003-1551 HTTP/1.1[0m" 400 -
+2020-03-11 19:06:22,560,560 werkzeug INFO 127.0.0.1 - - [11/Mar/2020 19:06:22] "[37mGET /gruposoperadores HTTP/1.1[0m" 200 -
+2020-03-11 19:06:37,864,864 root ERROR [Erro na requisição para o topdesk]400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2020-03-11 19:06:38,635,635 root ERROR HTTP Error 403: Forbidden
+2020-03-11 19:06:38,636,636 werkzeug INFO 127.0.0.1 - - [11/Mar/2020 19:06:38] "[31m[1mPOST /incidentes/anexararquivo?number=I2003-1551 HTTP/1.1[0m" 400 -
+2020-03-11 19:06:43,994,994 root ERROR [Erro na requisição para o topdesk]400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2020-03-11 19:06:44,841,841 root ERROR HTTP Error 403: Forbidden
+2020-03-11 19:06:44,848,848 werkzeug INFO 127.0.0.1 - - [11/Mar/2020 19:06:44] "[31m[1mPOST /incidentes/anexararquivo?number=I2003-1551 HTTP/1.1[0m" 400 -
+2020-03-11 19:09:19,815,815 werkzeug INFO  * Restarting with stat
+2020-03-11 19:09:20,890,890 werkzeug WARNING  * Debugger is active!
+2020-03-11 19:09:20,900,900 werkzeug INFO  * Debugger PIN: 180-228-970
+2020-03-11 19:09:20,960,960 werkzeug INFO  * Running on http://0.0.0.0:5002/ (Press CTRL+C to quit)
+2020-03-11 19:09:22,621,621 root ERROR [Erro na requisição para o topdesk]400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2020-03-11 19:09:23,550,550 root ERROR HTTP Error 403: Forbidden
+2020-03-11 19:09:23,552,552 werkzeug INFO 127.0.0.1 - - [11/Mar/2020 19:09:23] "[31m[1mPOST /incidentes/anexararquivo?number=I2003-1551 HTTP/1.1[0m" 400 -
+2020-03-11 19:09:42,571,571 root ERROR HTTP Error 403: Forbidden
+2020-03-11 19:09:42,572,572 werkzeug INFO 127.0.0.1 - - [11/Mar/2020 19:09:42] "[37mPOST /criarincidente HTTP/1.1[0m" 201 -
+2020-03-11 19:09:52,868,868 root ERROR [Campo obrigatório não encontrado]400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2020-03-11 19:09:53,631,631 root ERROR HTTP Error 403: Forbidden
+2020-03-11 19:09:53,633,633 werkzeug INFO 127.0.0.1 - - [11/Mar/2020 19:09:53] "[31m[1mPOST /criarincidente HTTP/1.1[0m" 400 -
+2020-03-11 22:12:34,240,240 werkzeug INFO  * Running on http://0.0.0.0:5002/ (Press CTRL+C to quit)
+2020-03-11 22:12:34,241,241 werkzeug INFO  * Restarting with stat
+2020-03-11 22:12:34,449,449 werkzeug WARNING  * Debugger is active!
+2020-03-11 22:12:34,450,450 werkzeug INFO  * Debugger PIN: 295-716-077
+2020-03-11 22:19:42,057,57 werkzeug INFO  * Running on http://0.0.0.0:5002/ (Press CTRL+C to quit)
+2020-03-11 22:19:42,058,58 werkzeug INFO  * Restarting with stat
+2020-03-11 22:19:42,265,265 werkzeug WARNING  * Debugger is active!
+2020-03-11 22:19:42,266,266 werkzeug INFO  * Debugger PIN: 187-405-737
+2020-03-11 22:19:53,279,279 root ERROR [Campo obrigatÃ³rio nÃ£o encontrado]400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2020-03-11 22:19:54,116,116 root ERROR HTTP Error 403: Forbidden
+2020-03-11 22:19:54,118,118 werkzeug INFO 172.18.0.1 - - [11/Mar/2020 22:19:54] "[31m[1mPOST /criarincidente HTTP/1.1[0m" 400 -
+2020-03-11 22:20:11,115,115 root ERROR [Erro na requisiÃ§Ã£o para o topdesk]400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2020-03-11 22:20:11,947,947 root ERROR HTTP Error 403: Forbidden
+2020-03-11 22:20:11,949,949 werkzeug INFO 172.18.0.1 - - [11/Mar/2020 22:20:11] "[31m[1mPOST /incidentes/anexararquivo?number=I2003-1551 HTTP/1.1[0m" 400 -
+2020-03-11 22:20:25,445,445 werkzeug INFO 172.18.0.1 - - [11/Mar/2020 22:20:25] "[37mPOST /incidentes/anexararquivo?number=I2003-1551 HTTP/1.1[0m" 200 -
+2020-03-11 22:20:50,098,98 root ERROR HTTP Error 403: Forbidden
+2020-03-11 22:20:50,100,100 werkzeug INFO 172.18.0.1 - - [11/Mar/2020 22:20:50] "[37mPOST /criarincidente HTTP/1.1[0m" 201 -
+2020-03-11 22:21:01,701,701 werkzeug INFO 172.18.0.1 - - [11/Mar/2020 22:21:01] "[37mGET /gruposoperadores HTTP/1.1[0m" 200 -
+2020-03-11 22:25:45,879,879 werkzeug INFO  * Running on http://0.0.0.0:5002/ (Press CTRL+C to quit)
+2020-03-11 22:25:45,880,880 werkzeug INFO  * Restarting with stat
+2020-03-11 22:25:46,090,90 werkzeug WARNING  * Debugger is active!
+2020-03-11 22:25:46,091,91 werkzeug INFO  * Debugger PIN: 201-867-111
