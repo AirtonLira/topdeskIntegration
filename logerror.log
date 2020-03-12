@@ -155,3 +155,55 @@
 2020-03-11 22:25:45,880,880 werkzeug INFO  * Restarting with stat
 2020-03-11 22:25:46,090,90 werkzeug WARNING  * Debugger is active!
 2020-03-11 22:25:46,091,91 werkzeug INFO  * Debugger PIN: 201-867-111
+2020-03-12 12:09:57,830,830 werkzeug INFO  * Restarting with stat
+2020-03-12 12:09:59,234,234 werkzeug WARNING  * Debugger is active!
+2020-03-12 12:09:59,261,261 werkzeug INFO  * Debugger PIN: 180-228-970
+2020-03-12 12:09:59,359,359 werkzeug INFO  * Running on http://0.0.0.0:5002/ (Press CTRL+C to quit)
+2020-03-12 12:10:33,809,809 werkzeug INFO 127.0.0.1 - - [12/Mar/2020 12:10:33] "[37mGET /gruposoperadores HTTP/1.1[0m" 200 -
+2020-03-12 12:10:40,382,382 werkzeug INFO 127.0.0.1 - - [12/Mar/2020 12:10:40] "[33mGET /gruposoperadoresz HTTP/1.1[0m" 404 -
+2020-03-12 12:10:54,154,154 root ERROR [Campo obrigatório não encontrado]400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2020-03-12 12:10:57,293,293 root ERROR HTTP Error 403: Forbidden
+2020-03-12 12:10:57,295,295 werkzeug INFO 127.0.0.1 - - [12/Mar/2020 12:10:57] "[31m[1mPOST /criarincidente HTTP/1.1[0m" 400 -
+2020-03-12 12:11:43,102,102 root ERROR HTTP Error 403: Forbidden
+2020-03-12 12:11:43,103,103 werkzeug INFO 127.0.0.1 - - [12/Mar/2020 12:11:43] "[37mPOST /criarincidente HTTP/1.1[0m" 201 -
+2020-03-12 12:17:11,147,147 root ERROR HTTP Error 403: Forbidden
+2020-03-12 12:17:11,150,150 werkzeug INFO 127.0.0.1 - - [12/Mar/2020 12:17:11] "[37mPOST /criarincidente HTTP/1.1[0m" 201 -
+2020-03-12 12:21:40,974,974 werkzeug INFO  * Detected change in 'C:\\Users\\airton.junior\\Documents\\topdeskIntegration\\utils\\exceptionHandler.py', reloading
+2020-03-12 12:21:41,499,499 werkzeug INFO  * Restarting with stat
+2020-03-12 12:21:44,000,0 werkzeug WARNING  * Debugger is active!
+2020-03-12 12:21:44,018,18 werkzeug INFO  * Debugger PIN: 180-228-970
+2020-03-12 12:21:44,134,134 werkzeug INFO  * Running on http://0.0.0.0:5002/ (Press CTRL+C to quit)
+2020-03-12 12:21:51,479,479 werkzeug INFO  * Restarting with stat
+2020-03-12 12:21:54,201,201 werkzeug WARNING  * Debugger is active!
+2020-03-12 12:21:54,219,219 werkzeug INFO  * Debugger PIN: 180-228-970
+2020-03-12 12:21:54,332,332 werkzeug INFO  * Running on http://0.0.0.0:5002/ (Press CTRL+C to quit)
+2020-03-12 12:23:03,811,811 root ERROR name 'URL_SLACK_BOT' is not defined
+2020-03-12 12:23:03,812,812 werkzeug INFO 127.0.0.1 - - [12/Mar/2020 12:23:03] "[37mPOST /criarincidente HTTP/1.1[0m" 201 -
+2020-03-12 12:24:49,009,9 werkzeug INFO  * Restarting with stat
+2020-03-12 12:24:50,023,23 werkzeug WARNING  * Debugger is active!
+2020-03-12 12:24:50,033,33 werkzeug INFO  * Debugger PIN: 180-228-970
+2020-03-12 12:24:50,095,95 werkzeug INFO  * Running on http://0.0.0.0:5002/ (Press CTRL+C to quit)
+2020-03-12 12:27:35,606,606 werkzeug INFO  * Restarting with stat
+2020-03-12 12:27:36,640,640 werkzeug WARNING  * Debugger is active!
+2020-03-12 12:27:36,650,650 werkzeug INFO  * Debugger PIN: 180-228-970
+2020-03-12 12:27:36,718,718 werkzeug INFO  * Running on http://0.0.0.0:5002/ (Press CTRL+C to quit)
+2020-03-12 12:27:45,182,182 root ERROR <urlopen error unknown url type: {'https>
+2020-03-12 12:27:45,183,183 werkzeug INFO 127.0.0.1 - - [12/Mar/2020 12:27:45] "[37mPOST /criarincidente HTTP/1.1[0m" 201 -
+2020-03-12 12:36:00,202,202 werkzeug INFO  * Restarting with stat
+2020-03-12 12:36:02,148,148 werkzeug WARNING  * Debugger is active!
+2020-03-12 12:36:02,160,160 werkzeug INFO  * Debugger PIN: 180-228-970
+2020-03-12 12:36:02,222,222 werkzeug INFO  * Running on http://0.0.0.0:5002/ (Press CTRL+C to quit)
+2020-03-12 12:37:18,897,897 werkzeug INFO  * Restarting with stat
+2020-03-12 12:37:20,715,715 werkzeug WARNING  * Debugger is active!
+2020-03-12 12:37:20,736,736 werkzeug INFO  * Debugger PIN: 180-228-970
+2020-03-12 12:37:20,850,850 werkzeug INFO  * Running on http://0.0.0.0:5002/ (Press CTRL+C to quit)
+2020-03-12 12:37:36,679,679 werkzeug INFO 127.0.0.1 - - [12/Mar/2020 12:37:36] "[37mPOST /criarincidente HTTP/1.1[0m" 201 -
+2020-03-12 12:38:54,880,880 werkzeug INFO  * Restarting with stat
+2020-03-12 12:38:55,964,964 werkzeug WARNING  * Debugger is active!
+2020-03-12 12:38:55,974,974 werkzeug INFO  * Debugger PIN: 180-228-970
+2020-03-12 12:38:56,040,40 werkzeug INFO  * Running on http://0.0.0.0:5002/ (Press CTRL+C to quit)
+2020-03-12 12:45:06,052,52 werkzeug INFO  * Restarting with stat
+2020-03-12 12:45:07,055,55 werkzeug WARNING  * Debugger is active!
+2020-03-12 12:45:07,065,65 werkzeug INFO  * Debugger PIN: 180-228-970
+2020-03-12 12:45:07,123,123 werkzeug INFO  * Running on http://0.0.0.0:5002/ (Press CTRL+C to quit)
+2020-03-12 12:45:18,043,43 werkzeug INFO 127.0.0.1 - - [12/Mar/2020 12:45:18] "[37mPOST /criarincidente HTTP/1.1[0m" 201 -
